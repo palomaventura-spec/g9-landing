@@ -60,8 +60,8 @@ a {
 }
 
 .nav-logo img {
-  width: 44px;
-  height: 44px;
+  width: 72px;
+  height: auto;
   object-fit: contain;
 }
 
@@ -83,8 +83,8 @@ a {
   align-items: center;
   padding: 140px 7% 80px;
   background:
-    linear-gradient(90deg, rgba(2, 8, 23, 0.92) 0%, rgba(2, 8, 23, 0.70) 45%, rgba(2, 8, 23, 0.18) 100%),
-    url("assets/foto-hero.jpg") center center / cover no-repeat;
+    linear-gradient(90deg, rgba(2, 8, 23, 0.92) 0%, rgba(2, 8, 23, 0.70) 44%, rgba(2, 8, 23, 0.18) 100%),
+    url("assets/foto-hero.jpg") 70% center / cover no-repeat;
   overflow: hidden;
 }
 
@@ -643,9 +643,13 @@ footer span {
 
 @media (max-width: 560px) {
   .hero {
+    background:
+      linear-gradient(180deg, rgba(2, 8, 23, 0.82) 0%, rgba(2, 8, 23, 0.96) 100%),
+      url("assets/foto-hero.jpg") center top / cover no-repeat;
     padding: 120px 6% 70px;
     min-height: 92vh;
   }
+}
 
   .hero-logo img {
     width: 90px;
