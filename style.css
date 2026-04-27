@@ -93,7 +93,8 @@ a {
       rgba(2, 8, 23, 0.78) 42%,
       rgba(2, 8, 23, 0.28) 100%
     ),
-    url("assets/foto-hero.png") 72% center / cover no-repeat;
+    url("assets/foto-hero.png") 82% center / auto 92% no-repeat;
+  background-color: #020817;
   overflow: hidden;
 }
 
@@ -591,7 +592,7 @@ audio {
   text-align: center;
   background:
     linear-gradient(rgba(2, 8, 23, 0.78), rgba(2, 8, 23, 0.92)),
-    url("assets/foto-hero.png") center/cover fixed no-repeat;
+    url("assets/foto-hero.jpg") center/cover fixed no-repeat;
 }
 
 .final-cta h2 {
@@ -689,13 +690,19 @@ footer span {
   }
 
   .hero {
-    align-items: flex-end;
-    padding: 150px 6% 70px;
-    min-height: 100vh;
-    background:
-      linear-gradient(180deg, rgba(2, 8, 23, 0.38) 0%, rgba(2, 8, 23, 0.86) 52%, rgba(2, 8, 23, 0.98) 100%),
-      url("assets/foto-hero.jpg") 60% top / cover no-repeat;
-  }
+  align-items: flex-end;
+  padding: 150px 6% 70px;
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(2, 8, 23, 0.18) 0%,
+      rgba(2, 8, 23, 0.78) 55%,
+      rgba(2, 8, 23, 0.98) 100%
+    ),
+    url("assets/foto-hero.png") center top / auto 62% no-repeat;
+  background-color: #020817;
+}
 
   .hero-logo img {
     width: 90px;
