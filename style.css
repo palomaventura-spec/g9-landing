@@ -83,8 +83,8 @@ a {
   align-items: center;
   padding: 140px 7% 80px;
   background:
-    linear-gradient(90deg, rgba(2,8,23,0.95), rgba(2,8,23,0.58), rgba(2,8,23,0.2)),
-    url("assets/foto-hero.jpg") center/cover no-repeat;
+    linear-gradient(90deg, rgba(2, 8, 23, 0.92) 0%, rgba(2, 8, 23, 0.70) 45%, rgba(2, 8, 23, 0.18) 100%),
+    url("assets/foto-hero.jpg") center center / cover no-repeat;
   overflow: hidden;
 }
 
